@@ -8,6 +8,11 @@ magic-api:
     #mac\u7528\u6237\u8BF7\u6539\u4E3A\u53EF\u8BFB\u5199\u7684\u76EE\u5F55
     #\u5982\u679C\u4E0D\u60F3\u5B58\u5230\u6587\u4EF6\u4E2D\uFF0C\u53EF\u4EE5\u53C2\u8003\u914D\u7F6E\u5C06\u63A5\u53E3\u4FE1\u606F\u5B58\u5230\u6570\u636E\u5E93\u3001Redis\u4E2D\uFF08\u6216\u81EA\u5B9A\u4E49\uFF09
     location: D:/data/magic-api
+  response-code:
+    success: 200
+    invalid: 400
+    exception: 500
+
 
 spring:
   datasource:
